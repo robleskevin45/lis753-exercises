@@ -1,15 +1,16 @@
+
+body {
+  background-color: gray;
+  font-family: arial, sans-serif;
+  color: #333333;
+  font-size: 2em;
+}
 .wrapper {
   background-color: #424242;
   width:92%;
   max-width: 800px;
   margin: 0 auto;
   padding: 3em 5em;
-}
-body {
-  background-color: gray;
-  font-family: arial, sans-serif;
-  color: #333333;
-  font-size: 2em;
 }
 header {
     text-align: center;
