@@ -81,13 +81,13 @@ ul {
 }
 @media screen and (max-width: 719px) {
   body {
-    background-color: lightgreen;
+    background-color: red;
   }
 
 }
 @media screen and (max-width: 479px) {
   body {
-    background-color: blue;
+    background-color: lightgreen;
   }
   .image {
     margin-top: 2em;
