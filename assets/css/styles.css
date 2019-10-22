@@ -1,6 +1,6 @@
 
 body {
-  background-color: #ABFCDD;
+  background-color: white;
   font-family: arial, sans-serif;
   color: #333333;
   font-size: 2em;
@@ -9,13 +9,13 @@ header {
     text-align: center;
     background-image: url(../images/hotel-wallpaper.png);
     border-bottom:2px solid #d2d2d2;
-    line-height: 4em;
+    line-height: 2em;
 }
 footer.wrapper {
   text-align: center;
   border-top: 2px solid #d2d2d2;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 .wrapper {
   background-color: #FFBBFF
@@ -83,15 +83,13 @@ ul {
   body {
     background-color: lightgreen;
   }
-  header {
-    background-color: red;
-  }
+
 }
 @media screen and (min-width: 479px) {
   body {
     background-color: blue;
   }
   .image {
-    resize: both;
+    margin-top: 2em;
   }
 }
