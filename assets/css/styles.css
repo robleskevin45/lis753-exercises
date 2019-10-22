@@ -1,12 +1,12 @@
 main.wrapper {
-  background-color: #fff;
+  background-color: #424242;
   width:92%;
   max-width: 800px;
   margin: 0 auto;
   padding: 3em 5em;
 }
 body {
-  background-color: #00bbff;
+  background-color: gray;
   font-family: arial, sans-serif;
   color: #333333;
   font-size: 2em;
