@@ -1,4 +1,10 @@
-
+.wrapper {
+  background-color: #FFBBFF
+  width:92%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3em 5em;
+}
 body {
   background-color: white;
   font-family: arial, sans-serif;
@@ -17,13 +23,7 @@ footer.wrapper {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-.wrapper {
-  background-color: #FFBBFF
-  width:92%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 3em 5em;
-}
+
 h1 {
   margin-bottom: .05em;
 }
