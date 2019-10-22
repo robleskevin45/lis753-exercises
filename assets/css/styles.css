@@ -6,11 +6,11 @@ body {
   font-size: 2em;
 }
 .wrapper {
-  background-color: cornsilk;
+  background-color: #fff8dc;
   width:92%;
   max-width: 800px;
   margin: 0 auto;
-  padding: 2px;
+  padding: 10px 16px;
 }
 header.wrapper {
     text-align: center;
