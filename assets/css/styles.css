@@ -1,12 +1,12 @@
 .wrapper {
-  background-color: #FFBBFF
+  background-color: #fff;
   width:92%;
   max-width: 800px;
   margin: 0 auto;
   padding: 3em 5em;
 }
 body {
-  background-color: #999999;
+  background-color: #00bbff;
   font-family: arial, sans-serif;
   color: #333333;
   font-size: 2em;
