@@ -12,7 +12,7 @@ background-color: yellow;
 .orange {
 background-color: orange;
 float: left;
-width: auto;
+width: 200px;
 }
 .blue {
 background-color: blue;
@@ -20,6 +20,6 @@ background-color: blue;
 .red {
   background-color: red;
   float: right;
-  width: auto;
-  height: auto;
+  width: 200px;
+
 }
