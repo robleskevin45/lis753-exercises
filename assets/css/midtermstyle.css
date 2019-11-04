@@ -1,5 +1,6 @@
-#wrapper{
+.wrapper{
   background-color: gray;
+  color: black;
 }
 body{
   background-color: white;
@@ -7,10 +8,10 @@ body{
 #yellow {
 background-color: yellow;
 }
-#orange{
+#orange {
 background-color: orange;
 }
-#blue{
+#blue {
 background-color: blue;
 }
 #red {
