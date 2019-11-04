@@ -1,11 +1,11 @@
+body {
+background-color: white;
+}
 .wrapper {
   background-color: white;
   color: black;
   width: 80%;
-}
-
-body {
-background-color: white;
+  padding: 6em;
 }
 
 .yellow {
