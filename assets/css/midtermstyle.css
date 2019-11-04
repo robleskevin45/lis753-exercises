@@ -2,6 +2,7 @@
   background-color: white;
   color: black;
   width: 80%;
+  margin: auto;
 }
 body{
   background-color: white;
@@ -11,11 +12,15 @@ background-color: yellow;
 }
 .orange {
 background-color: orange;
-
+float: left;
 }
 .blue {
 background-color: blue;
 }
 .red {
   background-color: red;
+  float: right;
+}
+.darkYellow {
+  background-color: #ffae42;
 }
