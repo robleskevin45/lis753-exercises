@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
   background-color: white;
   color: black;
   width: 80%;
@@ -10,6 +10,7 @@ background-color: white;
 
 .yellow {
 background-color: yellow;
+text-align: center;
 }
 
 .orange {
@@ -25,5 +26,5 @@ background-color: blue;
 }
 
 .darkYellow {
-  background-color: gray;
+  background-color: #ffae42;
 }
