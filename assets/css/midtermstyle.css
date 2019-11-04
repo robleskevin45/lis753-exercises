@@ -1,5 +1,7 @@
 body {
 background-color: white;
+height:50em;
+
 }
 .wrapper {
   background-color: white;
@@ -15,6 +17,8 @@ background-color: yellow;
 text-align: center;
 width: 500px;
 margin-left:6em;
+font-style:italic;
+
 
 }
 
@@ -24,6 +28,8 @@ float: left;
 width: 420px;
 color: white;
 text-indent: 10px;
+border-radius: 25px;
+ border: 1px solid black;
 }
 #space {
 	width:10px;
@@ -31,7 +37,7 @@ text-indent: 10px;
 }
 .date {
 	color: black;
-	text-indent:2em;
+	padding-left:3em;
 }
 .blue {
 background-color: blue;
@@ -39,6 +45,9 @@ width: 420px;
 float:left;
 margin-top:20px;
 color: white;
+text-indent: 10px;
+border-radius: 25px;
+ border: 1px solid black;
 }
 
 .red {
@@ -47,14 +56,27 @@ color: white;
   width:420px;
   padding-left:5px;
   color: white;
+  text-indent: 10px;
+  border-radius: 25px;
+ border: 1px solid black;
 }
 #photo {
 	float:left;
-	width: 420px;
+	width: 355px;
 	margin-top:20px;
+	border: 2px solid black;
+	padding-left:4em;
+	
+	border-radius: 25px;
+ border: 1px solid black;
+}
+#blackText {
+	color:black;
+	padding-left:3em;
 }
 .white {
 	color: white;
+	padding-left:3em;
 }
 .darkYellow {
 	margin-top:10px;
@@ -62,5 +84,10 @@ color: white;
   float: right;
   width: 420px;
   color: white;
+  border-radius: 25px;
+ border: 1px solid black;
 }
+#foot {
+	margin-top:35em;
+	text-align:center;
 
