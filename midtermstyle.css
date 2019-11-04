@@ -1,0 +1,93 @@
+body {
+background-color: white;
+height:50em;
+
+}
+.wrapper {
+  background-color: white;
+  color: black;
+  width: 850px;
+  padding: 1em 12em;
+}
+.page-title {
+	text-align:center;
+}
+.yellow {
+background-color: yellow;
+text-align: center;
+width: 500px;
+margin-left:6em;
+font-style:italic;
+
+
+}
+
+.orange {
+background-color: orange;
+float: left;
+width: 420px;
+color: white;
+text-indent: 10px;
+border-radius: 25px;
+ border: 1px solid black;
+}
+#space {
+	width:10px;
+	
+}
+.date {
+	color: black;
+	padding-left:3em;
+}
+.blue {
+background-color: blue;
+width: 420px;
+float:left;
+margin-top:20px;
+color: white;
+text-indent: 10px;
+border-radius: 25px;
+ border: 1px solid black;
+}
+
+.red {
+  background-color: red;
+  float: right;
+  width:420px;
+  padding-left:5px;
+  color: white;
+  text-indent: 10px;
+  border-radius: 25px;
+ border: 1px solid black;
+}
+#photo {
+	float:left;
+	width: 355px;
+	margin-top:20px;
+	border: 2px solid black;
+	padding-left:4em;
+	
+	border-radius: 25px;
+ border: 1px solid black;
+}
+#blackText {
+	color:black;
+	padding-left:3em;
+}
+.white {
+	color: white;
+	padding-left:3em;
+}
+.darkYellow {
+	margin-top:10px;
+  background-color: #ffae42;
+  float: right;
+  width: 420px;
+  color: white;
+  border-radius: 25px;
+ border: 1px solid black;
+}
+#foot {
+	margin-top:35em;
+	text-align:center;
+
