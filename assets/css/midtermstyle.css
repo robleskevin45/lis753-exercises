@@ -8,23 +8,19 @@ body{
   background-color: white;
 }
 .yellow {
-display: block;
 background-color: yellow;
 text-align: center;
 }
 .orange {
-display: block;
 background-color: orange;
-float: left;
+
 }
 .blue {
-display: block;
 background-color: blue;
 }
 .red {
-  display: block;
   background-color: red;
-  float: right;
+
 }
 .darkYellow {
   background-color: #ffae42;
