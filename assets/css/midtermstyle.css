@@ -1,6 +1,7 @@
 .wrapper{
-  background-color: gray;
   color: black;
+  width: 80%;
+  height: auto;
 }
 body{
   background-color: white;
@@ -10,10 +11,15 @@ background-color: yellow;
 }
 .orange {
 background-color: orange;
+float: left;
+width: auto;
 }
 .blue {
 background-color: blue;
 }
 .red {
   background-color: red;
+  float: right;
+  width: auto;
+  height: auto;
 }
