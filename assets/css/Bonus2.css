@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  font-family: arial, sans-serif;
+  color: #333333;
+  font-size: 1em;
+}
+.wrapper {
+  background-color: #fff8dc;
+  width:98%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 16px;
+}
+header.wrapper {
+    text-align: center;
+    background-image: url(../images/hotel-wallpaper.png);
+    border-bottom:2px solid #d2d2d2;
+
+}
+footer.wrapper {
+  text-align: center;
+  border-top: 2px solid #d2d2d2;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+h2 {
+  margin-bottom: .25em;
+  margin-top: 1em;
+}
+h1, h2 {
+
+  color: #241909;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding:1em;
+  
+}
+
+td, th {
+  border: 1px solid blue;
+  text-align: left;
+  padding: 8px;
+}
+caption{
+	font-family: Times New Roman;
+	font-size:2em;
+	
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+@media all and (min-width:921px){
+  article, aside {
+    float: left;
+
+  }
+  article {
+    width: 75%;
+    padding-right: 20px;
+  }
+  aside {
+    width: 25%;
+  }
+  aside h2:first-child {
+    margin-top: 14px;
+  }
+}
+
+
+@media screen and (max-width: 920px) {
+  body {
+    background-color: red;
+  }
+
+}
+@media screen and (max-width: 719px) {
+  body {
+    background-color: lightgreen;
+  }
+  .image {
+    margin-top: 2em;
+  }
+}
