@@ -1,0 +1,133 @@
+/*
+Kevin Robles
+ElantraAbout.css
+*/
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+* { box-sizing: border-box; }
+header, main, footer { 
+    display: block; 
+}
+
+body { 
+    background-color: #000;
+      color: #d5e3ff;
+	  font-family: 'Lobster', cursive; 
+	  background:url("../images/Background5.jpg");
+	  height:100%;
+	  background-repeat:no-repeat;
+	  height:100%;
+	  background-size: cover;
+}
+
+#wrapper { 
+		 background: rgba(0,0,0,0.8);
+           color: #FFF;
+		   width: 85%;
+           margin-right: auto;
+		   margin-left: auto;
+		   min-width: 700px;
+		   max-width: 1024px;
+
+		   
+}
+#blankSpot{
+	padding-bottom:1em;
+	
+}
+ figure {
+	text-align:center;
+ }
+header { 
+	background-color: #000;
+    color: #FFF;
+	height:150px;
+	text-align:center;
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	padding-top:3em;
+	background-size: cover;
+	background-position: 50% 50%;
+	border-radius: 15px;
+}
+ img {
+	 padding-top:5em;
+	 float:right;
+
+ }
+h1 { font-size: 3em;
+	line-height: 100%;
+	text-shadow: 2px 2px 2px #CCC;	
+	text-shadow: 2px 2px #ccc;
+	text-align: center;
+	font-size: 3em;
+	padding-bottom:5em;
+}
+
+main {
+	padding: 10px 10px 25px 0px;
+	padding-left:3em;
+	padding-right: 3em;
+	height: 60em;
+}
+
+#vid{text-align:center;}
+footer {
+	font-size: .7em;
+	font-style: italic;
+	text-align:center;
+	background: rgba(0,0,0,0.8);
+}
+figcaption{text-align:center;}
+.mapouter{position:relative;text-align:right;height:500px;width:600px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+
+@media only screen and (max-width: 991px) {
+
+#wrapper {
+	width: auto;
+	min-width: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	font-size: 90%;
+	margin: 0;
+	padding-left: 2em;
+
+}
+
+main ul {
+	padding-left: 20px;
+}
+
+h1 {
+	line-height: 200%; 
+	font-size: 2em;
+	margin: 0;
+}
+
+footer { padding:0 40px;}
+
+}
+.mapouter{position:relative;text-align:right;height:400px;width:500px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:500px;}
+
+
+@media only screen and (max-width: 767px) {
+		
+header {
+	background-image: url("../images/banner.jpg");
+}
+
+h1 {
+	font-size: 1.5em;
+	line-height: 120%;
+	text-shadow: none;
+}
+.mapouter{position:relative;text-align:right;height:300px;width:400px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:400px;}
